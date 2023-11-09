@@ -198,10 +198,7 @@ const House = () => {
             <ProductCard />
             <ProductCard />
             <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+
           </div>
         </div>
       </section>
@@ -259,13 +256,13 @@ const House = () => {
             </div>
           </div>
           <div className="row">
-            <SpecialProduct/>
-            <SpecialProduct/>
-            <SpecialProduct/>
-            <SpecialProduct/>
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
 
           </div>
-          
+
         </div>
       </section>
       <section className='popular-wrapper home-wrapper-2 py-5'>
@@ -329,10 +326,20 @@ const House = () => {
             <div className="col-12">
               <h3 className='section-heading'>Our Latest Blogs</h3>
             </div>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+          </div>
+          <div className='row'>
+            <div className='col-3'>
+              <BlogCard />
+            </div>
+            <div className='col-3'>
+              <BlogCard />
+            </div>
+            <div className='col-3'>
+              <BlogCard />
+            </div>
+            <div className='col-3'>
+              <BlogCard />
+            </div>
           </div>
         </div>
 
