@@ -40,19 +40,19 @@ const Header = () => {
               <div className="col-5">
                 <div className="header-upper-links d-flex align-item-center justify-content-between">
                   <div>
-                    <Link className='d-flex align-items-center gap-10 text-white'>
+                    <Link to='/compare-product' className='d-flex align-items-center gap-10 text-white'>
                       <img src="images/compare.svg" alt="compare" />
                       <p className='mb-0'>Compare <br /> products</p>
                     </Link>
                   </div>
                   <div>
-                    <Link className='d-flex align-items-center gap-10 text-white'>
+                    <Link className='d-flex align-items-center gap-10 text-white' to='/wishlist'>
                       <img src="images/wishlist.svg" alt="wishlist" />
                       <p className='mb-0'>Favourite <br /> wishlist</p>
                     </Link>
                   </div>
                   <div>
-                    <Link className='d-flex align-items-center gap-10 text-white'>
+                    <Link to='/login' className='d-flex align-items-center gap-10 text-white'>
                       <img src="images/user.svg" alt="user" />
                       <p className='mb-0'>Log in<br /> My Account</p>
                     </Link>
@@ -99,7 +99,7 @@ const Header = () => {
                   <div className="menu-links">
                     <div className="d-flex align-items-center gap-15">
                       <NavLink to="/">Home</NavLink>
-                      <NavLink to="/store">Our Store</NavLink>
+                      <NavLink to="/product">Our Store</NavLink>
                       <NavLink to="/blogs">Blogs</NavLink>
                       <NavLink to="/contact">Contact</NavLink>
                     </div>
