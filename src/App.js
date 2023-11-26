@@ -19,6 +19,8 @@ import ShoppingPolicy from './pages/ShoppingPolicy';
 import RefundPolicy from './pages/RefundPolicy';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import SingleProduct from './pages/SingleProduct';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 
 
 
@@ -34,10 +36,12 @@ function App() {
           <Route path='/product' element= {<Ourstore/>}/>
           <Route path='/product/:id' element= {<SingleProduct/>}/>
           <Route path='/blogs' element= {<Blog/>}/>
-          <Route path='/blogs/:id' element= {<SingleBlog/>}/>
+          <Route path='/blogs-id' element= {<SingleBlog/>}/>
           <Route path='/compare-product' element= {<CompareProduct/>}/>
           <Route path='/wishlist' element= {<Wishlist/>}/>
           <Route path='/login' element= {<Login/>}/>
+          <Route path='/cart' element= {<Cart/>}/>
+          <Route path='/checkout' element= {<Checkout/>}/>
           <Route path='/forget-password' element= {<Forgetpassword/>}/>
           <Route path='/signup' element= {<Signup/>}/>
           <Route path='/resetpass' element= {<Emailreset/>}/>
